@@ -1,0 +1,41 @@
+name: bda-kaggle
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # basic
+  - python=3.11
+  - pip
+  - black
+  - flake8
+  - isort
+  - tqdm
+  - joblib
+  - numpy
+  - pandas
+  - jupyter
+  - notebook
+  - jupyterlab
+  # visualization
+  - matplotlib
+  - seaborn
+  - bokeh
+  - plotly
+  - holoviews
+  - hvplot
+  # machine learning
+  - scikit-learn
+  - category_encoders
+  - scipy
+  - statsmodels
+  - lightgbm
+  - xgboost
+  - catboost
+  # deep learning
+  - pytorch
+  - pytorch-lightning
+  - torchmetrics
+  # NLP
+  - nltk
+  - spacy
+  - transformers

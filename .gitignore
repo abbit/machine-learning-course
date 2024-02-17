@@ -1,0 +1,11 @@
+.DS_Store
+.vscode
+.idea
+
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints
+
+*.zip
+results
